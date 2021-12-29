@@ -1,0 +1,62 @@
+body{
+    background-color: aqua;
+}
+
+#title{
+    text-align: center;
+    font-family:serif;
+    color: deeppink;
+    font-weight: 200px;
+    font-size: 50px;
+
+}
+#description{
+    text-align: center;
+    font-family:serif;
+    color: deeppink;
+    font-weight: 150px;
+    font-size: 30px;
+}
+.form-group{
+    text-align: center;
+    display: block;
+    color: deeppink;
+    font-size: 20px;
+}
+.control-form{
+    width: 60%;
+    height: 50px;
+}
+.container{
+    background-color: azure;
+    margin-left: 180px;
+    margin-right: 180px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+
+#email-label{
+    display: block;
+    text-align: center;
+}
+#name-label{
+    display: block;
+    text-align: center;
+}
+#number-label{
+    display: block;
+    text-align: center;
+}
+#dropdown{
+    display: block;
+    text-align: center;
+}
+#submit{
+    width: 30%;
+    height: 40px;
+    
+}

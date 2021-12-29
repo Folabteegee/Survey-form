@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey form</title>
+</head>
+<body>
+  <h1 id="title">Survey form</h1>  
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+  <div class="container">
+      
+  <form id="Survey-form"></form>
+  <div class="form-group">
+    <label id="name-label" 
+    for="name">Name</label>
+    <input
+    type="text" name="name" id="name" class="control-form" placeholder="Enter your name" required />
+    <div class="form-group">
+        <label id="email-label" 
+        for="email">Email</label>
+        <input
+        type="email" name="email" id="email" class="control-form" placeholder="Enter your email" required />
+
+        <div class="form-group">
+      <label id="number-label" for="number"
+        >Age<span class="clue">(optional)</span></label
+      >
+      <input
+        type="number"
+        name="age"
+        id="number"
+        min="10"
+        max="99"
+        class="control-form"
+        placeholder="Age"
+      />
+    </div>
+    
+    <div class="form-group">
+        <p>Gender</p>
+        <label>
+            <input
+            name="user-recommend"
+            value="Male"
+            type="radio"
+            checked
+            />Male</label>
+        <label>
+            <input
+            name="user-recommend"
+            value="Female"
+            type="radio"
+            checked
+            />Female</label>
+            <hr>
+    </div>
+    <div class="form-group">
+        <p>Which sport do you like?</p>
+        <label>
+            <input
+            name="prefer"
+          value="Football"
+          type="checkbox"
+          class="input-checkbox"
+        />Football
+        </label>
+
+        <label>
+            <input
+            name="prefer"
+          value="Hockey"
+          type="checkbox"
+          class="input-checkbox"
+        />Hockey
+        </label>
+
+        <label>
+            <input
+            name="prefer"
+          value="Basketball"
+          type="checkbox"
+          class="input-checkbox"
+        />Basketball
+        </label>
+      </div>
+  </div>
+<hr>
+  <div class="form-group">
+    <button type="submit" id="submit" class="submit-button">
+      Submit
+    </button>
+ 
+      
+  </div>
+</body>
+</html>
